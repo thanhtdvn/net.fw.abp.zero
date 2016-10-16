@@ -14,6 +14,7 @@ This is demo of asp.net boilerplate zero module
 ### Các tính năng cần lưu ý trong kiến trúc hệ thống
 - Tenant Management
 Hệ thống có thể chạy ở chế độ Milti-Tenant hoặc Single-Tenant. Mặc định là Single-Tenant.
+
 Để bật chế độ Multi-Tenant cấu hình:
 ```C#
 [DependsOn(typeof(AbpZeroCoreModule))]
@@ -30,16 +31,19 @@ public class MyCoreModule : AbpModule
 
 - Edition Management
 Hổ trợ phân chia các tính năng trong hệ thống thành các package khác nhau. Cho phép KH có thể chọn lựa những package khác nhau theo giá hay tùy chọn về tính năng.
+
 (Tham khảo: http://www.aspnetboilerplate.com/Pages/Documents/Feature-Management)
 
 - User Management
 
-Quản lý user cũng như thiết lập các cơ chế Login liên quan trong hệ thống
+Quản lý user cũng như thiết lập các cơ chế Login liên quan trong hệ thống.
+
 (Tham khảo: http://www.aspnetboilerplate.com/Pages/Documents/Zero/User-Management)
 
 - Role Management
 
 Quản lý quyền, phân quyền cho user trong hệ thống.
+
 (Tham khảo: http://www.aspnetboilerplate.com/Pages/Documents/Zero/Role-Management)
 
 - Organization Unit (OU) Management 
@@ -76,12 +80,15 @@ public async Task<List<Product>> GetProductsForUserAsync(long userId)
 - Permission Management
 
 Thực hiện việc định nghĩa và check permission của 1 User hoặc Role được phép thực hiện 1 hành động nào đó trong hệ thống hay không.
+
 (Tham khảo: http://www.aspnetboilerplate.com/Pages/Documents/Zero/Permission-Management)
 
 - Language Management
 
 Hổ trợ đa ngôn ngữ static/dynamic text hiển thị.
+
 Hổ trợ nhiều cách và tùy chỉnh để thực hiện : XML resource, json resource, embed resource, database store
+
 (Tham khảo: http://www.aspnetboilerplate.com/Pages/Documents/Zero/Language-Management)
 
 ## Demo
