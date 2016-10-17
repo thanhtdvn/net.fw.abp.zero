@@ -94,7 +94,9 @@ Hổ trợ nhiều cách và tùy chỉnh để thực hiện : XML resource, js
 ## Demo
 1. Phrase 1
 . Tạo module Contact Management: ContactGroup, Contact
+
 . Viết UnitTest cho các ApplicationService cho các đối tượng 
+
 . Viết các Action tạo, sửa, xóa ContactGroup, Contact
 
 2. Phrase 2
